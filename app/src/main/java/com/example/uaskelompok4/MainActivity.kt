@@ -1,20 +1,29 @@
 package com.example.uaskelompok4
 
+import android.content.Intent
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
+import androidx.cardview.widget.CardView
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
         setContentView(R.layout.activity_main)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
+
+        findViewById<CardView>(R.id.cardProject).setOnClickListener {
+            startActivity(Intent(this, ProjectListActivity::class.java))
+        }
+
+        findViewById<CardView>(R.id.cardClient).setOnClickListener {
+            startActivity(Intent(this, ClientListActivity::class.java))
+        }
+
+        findViewById<CardView>(R.id.cardTeam).setOnClickListener {
+            startActivity(Intent(this, ProjectListActivity::class.java))
+        }
+
+        findViewById<CardView>(R.id.cardDocument).setOnClickListener {
+            startActivity(Intent(this, ProjectListActivity::class.java))
         }
     }
 }
