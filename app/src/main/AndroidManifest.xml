@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UASKelompok4">
         <activity
+            android:name="activity.ClientFormActivity"
+            android:exported="false" />
+        <activity
+            android:name="activity.ClientListActivity"
+            android:exported="false" />
+        <activity
+            android:name="Activity.ClientListActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
