@@ -23,8 +23,8 @@ https://youtu.be/GBFzcSq_FbI?si=JB88CGJ0S8voYHh3
 ---
 
 📸 Screenshots Aplikasi
-<img width="738" height="1600" alt="1" src="https://github.com/user-attachments/assets/2c8a1ee4-e5fb-4494-8390-28414a0d55f3" />
-<img width="738" height="1600" alt="2" src="https://github.com/user-attachments/assets/5f159d58-e7d8-4435-b9d1-6bf660384287" />
+<img src="screenshots/login.png" width="250" alt="Halaman Login"/>
+<img src="screenshots/dashboard.png" width="250" alt="Dashboard Utama"/>
 
 ---
 
