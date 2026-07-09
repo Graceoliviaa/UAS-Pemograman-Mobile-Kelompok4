@@ -12,7 +12,7 @@ class ClientFormActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_client_form)
 
-        val btnSimpan = findViewById<Button>(R.id.btnSimpan)
+        val btnSimpan = findViewById<Button>(R.id.btnSave)
 
         btnSimpan.setOnClickListener {
             Toast.makeText(this, "Data Client berhasil disimpan", Toast.LENGTH_SHORT).show()

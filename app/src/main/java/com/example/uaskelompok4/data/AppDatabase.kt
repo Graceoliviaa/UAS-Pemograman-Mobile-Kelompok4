@@ -13,13 +13,15 @@ import com.example.uaskelompok4.data.entity.Client
 import com.example.uaskelompok4.data.entity.Project
 import com.example.uaskelompok4.data.entity.ProjectDocument
 import com.example.uaskelompok4.data.entity.ProjectTeamMember
+import com.example.uaskelompok4.data.Employee
 
 @Database(
     entities = [
         Project::class,
         Client::class,
         ProjectDocument::class,
-        ProjectTeamMember::class
+        ProjectTeamMember::class,
+        Employee::class
     ],
     version = 1,
     exportSchema = false

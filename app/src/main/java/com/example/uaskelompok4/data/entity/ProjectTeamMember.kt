@@ -1,19 +1,40 @@
 package com.example.uaskelompok4.data.entity
 
-import androidx.room.*
+import androidx.room.Entity
+import androidx.room.ForeignKey
+import androidx.room.Index
+import androidx.room.PrimaryKey
+import com.example.uaskelompok4.data.Employee
 
 @Entity(
     tableName = "project_team_members",
     foreignKeys = [
-        ForeignKey(entity = Project::class, parentColumns = ["id"], childColumns = ["projectId"], onDelete = ForeignKey.CASCADE),
-        ForeignKey(entity = Employee::class, parentColumns = ["id"], childColumns = ["employeeId"], onDelete = ForeignKey.CASCADE)
+        ForeignKey(
+            entity = Project::class,
+            parentColumns = ["id"],
+            childColumns = ["projectId"],
+            onDelete = ForeignKey.CASCADE
+        ),
+        ForeignKey(
+            entity = Employee::class,
+            parentColumns = ["id"],
+            childColumns = ["employeeId"],
+            onDelete = ForeignKey.CASCADE
+        )
     ],
-    indices = [Index(value = ["projectId"]), Index(value = ["employeeId"])]
+    indices = [
+        Index(value = ["projectId"]),
+        Index(value = ["employeeId"])
+    ]
 )
 data class ProjectTeamMember(
+
     @PrimaryKey(autoGenerate = true)
     val id: Int = 0,
+
     val projectId: Int,
+
     val employeeId: Int,
+
     val roleInProject: String
 )

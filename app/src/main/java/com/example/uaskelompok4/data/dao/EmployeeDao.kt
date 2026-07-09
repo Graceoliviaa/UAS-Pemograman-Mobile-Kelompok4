@@ -1,13 +1,20 @@
 package com.example.uaskelompok4.data.dao
 
-import androidx.room.*
-import com.example.uaskelompok4.data.entity.Employee
+import androidx.room.Dao
+import androidx.room.Delete
+import androidx.room.Insert
+import androidx.room.Query
+import com.example.uaskelompok4.data.Employee
 
 @Dao
 interface EmployeeDao {
-    @Query("SELECT * FROM employees ORDER BY name ASC")
+
+    @Query("SELECT * FROM employees")
     fun getAll(): List<Employee>
 
     @Insert
-    fun insertAll(employees: List<Employee>)
+    fun insert(employee: Employee)
+
+    @Delete
+    fun delete(employee: Employee)
 }
