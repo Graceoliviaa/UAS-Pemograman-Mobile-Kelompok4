@@ -40,6 +40,7 @@ https://youtu.be/GBFzcSq_FbI?si=JB88CGJ0S8voYHh3
 ---
 
 🛠️ Cara Menjalankan / Cloning Proyek
+
 Ikuti langkah berikut untuk menjalankan proyek ini di Android Studio lokal Anda:
 
 1. Clone Repository:
