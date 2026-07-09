@@ -3,13 +3,11 @@ package com.example.uaskelompok4.data.entity
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
-@Entity(tableName = "clients")
-data class Client(
+@Entity(tableName = "employees")
+data class Employee(
     @PrimaryKey(autoGenerate = true)
     val id: Int = 0,
     val name: String,
-    val picName: String,
-    val picContact: String,
-    val email: String,
-    val address: String
+    val position: String,
+    val department: String
 )

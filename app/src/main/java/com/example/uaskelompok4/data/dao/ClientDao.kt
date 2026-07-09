@@ -6,13 +6,13 @@ import com.example.uaskelompok4.data.entity.Client
 
 @Dao
 interface ClientDao {
-    @Query("SELECT * FROM clients ORDER BY id DESC")
+    @Query("SELECT * FROM clients ORDER BY name ASC")
     fun getAll(): LiveData<List<Client>>
 
     @Query("SELECT * FROM clients WHERE id = :id")
     fun getById(id: Int): Client?
 
-    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    @Insert
     fun insert(client: Client): Long
 
     @Update

@@ -26,31 +26,17 @@
             android:textSize="28sp" />
 
         <TextView
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Daftar Klien"
+            android:text="Pilih Karyawan"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
             android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/btnAdd"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="#1D9E75"
-            android:paddingStart="12dp"
-            android:paddingTop="6dp"
-            android:paddingEnd="12dp"
-            android:paddingBottom="6dp"
-            android:text="+ Tambah"
-            android:textColor="#FFFFFF"
-            android:textSize="13sp" />
-
     </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rvClients"
+        android:id="@+id/rvEmployees"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="16dp"
