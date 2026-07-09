@@ -14,11 +14,12 @@ Sistem Informasi Manajemen Proyek, Klien, Tim, dan Dokumen internal yang diranca
 
 ---
 📄Laporan OOAD
-https://drive.google.com/drive/folders/152d2wxIoaNeL1I54BNa2i5s0wGwm6LG-?usp=drive_link
 
+https://drive.google.com/drive/folders/152d2wxIoaNeL1I54BNa2i5s0wGwm6LG-?usp=drive_link
 
 ---
 🎥 Video Penjelasan & Demo Aplikasi
+
 https://youtu.be/GBFzcSq_FbI?si=JB88CGJ0S8voYHh3
 
 ---
