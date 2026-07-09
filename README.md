@@ -5,11 +5,12 @@ Sistem Informasi Manajemen Proyek, Klien, Tim, dan Dokumen internal yang diranca
 ---
 
 👥 Daftar Anggota Kelompok & Peran
-Grace Olivia Hutagalung - 24552011114 - Lead Android Developer (Foundation DB, Entity/DAO, Project Module: MainActivity, ProjectListActivity, ProjectFormActivity, ProjectDetailActivity)
 
-Revana Augustin Mustika Rauf - 24552011343 - Android Developer (Client & Team Module: ClientListActivity, ClientFormActivity, ProjectTeamActivity, AssignMemberActivity)
+1. Grace Olivia Hutagalung - 24552011114 - Lead Android Developer (Foundation DB, Entity/DAO, Project Module: MainActivity, ProjectListActivity, ProjectFormActivity, ProjectDetailActivity)
 
-Ai Siti Qomariah - 24552011276 - Android Developer & QA Tester (Document Module & Testing Integration: ProjectDocumentActivity, DocumentFormActivity, Integration Testing, Employee Dummy Data Provider)
+2. Revana Augustin Mustika Rauf - 24552011343 - Android Developer (Client & Team Module: ClientListActivity, ClientFormActivity, ProjectTeamActivity, AssignMemberActivity)
+
+3. Ai Siti Qomariah - 24552011276 - Android Developer & QA Tester (Document Module & Testing Integration: ProjectDocumentActivity, DocumentFormActivity, Integration Testing, Employee Dummy Data Provider)
 
 ---
 📄Laporan OOAD
