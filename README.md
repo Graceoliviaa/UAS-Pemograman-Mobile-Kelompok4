@@ -24,6 +24,7 @@ https://youtu.be/GBFzcSq_FbI?si=JB88CGJ0S8voYHh3
 ---
 
 📸 Screenshots Aplikasi
+
 <img width="250" alt="1" src="https://github.com/user-attachments/assets/4d3d3922-8429-46f1-9d3d-639c6f768c44" />
 <img width="250" alt="2" src="https://github.com/user-attachments/assets/2704d0cd-3c72-4791-936b-79f656074a5f" />
 
